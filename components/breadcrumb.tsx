@@ -33,7 +33,7 @@ export default function Breadcrumb() {
       <ul className="flex flex-wrap items-center">
         {breadcrumbItems.map(({ label, href }, index) => (
           <li key={index}>
-            <div className="flex items-center">
+            <div className="flex items-center text-sm md:text-base">
               {index > 0 && (
                 <span className="sublink mx-1 text-default/60">/</span>
               )}
